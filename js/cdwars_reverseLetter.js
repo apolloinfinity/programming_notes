@@ -41,7 +41,8 @@ console.log(reverseLetter("ualy*dp!ilx!%6w$zr-wwf{z/?zlfuv4=#o4ovm0"));
 */
 
 
-//This is a much simpler and faster solution to this problem
+// This is a much simpler and faster solution to this problem
+// ^ character inside of the regex tells the transpiler to look for characters that are not withing the [a-z] 
 function reverseLetter2(str) {
     return str.replace(/[^a-z]/gi).split("").reverse().join("");
 }

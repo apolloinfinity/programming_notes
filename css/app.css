@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    /* background: red; */
+    /* line-height: 5em; */
+}
+
+h1 {
+    display: inline-block;
+    /* font-size: 2px; */
+    line-height: 2em;
+    margin-right: 20px;
+}
+
+.btn {
+    background:#34495e;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.hide-me{
+    display: none;
+}

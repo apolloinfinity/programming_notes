@@ -3,7 +3,7 @@ var pageCounter = 1;
 var animalContainer = document.getElementById("animal-info");
 var btn = document.getElementById("btn");
 
-addEventListener("click", function(){
+btn.addEventListener("click", function(){
     // This creates AJAX object
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'https://learnwebcode.github.io/json-example/animals-' + pageCounter + '.json');

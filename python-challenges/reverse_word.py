@@ -6,15 +6,20 @@ Any spaces in the string should be retained.
 
 """
 
-def reverse_words(words):
-    c = list(reversed(words))
-    e = "".join(c)
-    print(e)
-
+def reverse_words(str):
+    w = str[::-1]
+    q = w.split(" ")[::-1]
+    r = " ".join(q)
+    print(r)
 
 reverse_words('Hello world!')
+reverse_words("double  spaces")
 
-# c = "Hello world"
+c = "Hello world"
 # d = list(reversed(c))
 # e = "".join(d)
-# print(g)
+
+# Best practices solution
+""" def reverse_words(str):
+    return ' '.join(s[::-1] for s in str.split(' '))
+"""

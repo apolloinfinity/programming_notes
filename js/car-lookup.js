@@ -25,4 +25,3 @@ function lookUp(make) {
 
 }
 lookUp("Ferrari");
-lookUp("Ford")

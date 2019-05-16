@@ -8,7 +8,7 @@ var cars = [ //array of car objects
         "make": "Ferrari",
         "model": "Enzo Ferrari",
         "cylinders": 12
-    }, 
+    },
     {
         "make": "Aston Martin",
         "model": "DB9",
@@ -17,8 +17,8 @@ var cars = [ //array of car objects
 ]
 
 function lookUp(make) {
-    for(var i = 0; i < cars.length; i++) {
-        if(cars[i].make === make) {
+    for (var i = 0; i < cars.length; i++) {
+        if (cars[i].make === make) {
             return cars[i].model;
         }
     }

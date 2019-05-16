@@ -1,4 +1,4 @@
-#Notes on Programming   
+# Notes on Programming   
 
 I am changing this repo to show notes and tutorials I've gone over explaning different aspects of Programming. I will feature paradigms,
 Design Patterns, Data Structures and Algorithms, featuring either in JavaScript or Python. 

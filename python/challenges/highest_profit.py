@@ -4,6 +4,7 @@
 then get the smallest number from the lst array and push that into the empy array.
 """
 
+
 def min_max(lst):
     mn = []
 
@@ -12,7 +13,6 @@ def min_max(lst):
     mn.append(a)
     mn.append(b)
     return mn
-
 
 
 print(min_max([1, 2, 3, 4, 49, 6]))
@@ -28,5 +28,7 @@ Other people have better solutions than I do but I am ok with it because I learn
 
 # This is the better more simplistic solution and is best practices
 
+'''
 def min_max(lst):
-  return [min(lst), max(lst)]
+    return [min(lst), max(lst)]
+'''

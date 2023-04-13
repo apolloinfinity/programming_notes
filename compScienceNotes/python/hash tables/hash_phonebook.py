@@ -9,7 +9,7 @@ This is CS fundementals on hash tables
 phonebook = {}  # empty dictionanary to start off with.
 
 phonebook["mom"] = "555-555-001"
-phonebook["dad"] = "555-555-003"
+phonebook["dad"] = "555-555-002"
 phonebook["wife"] = "555-555-003"
 
 # print(phonebook)
@@ -24,7 +24,7 @@ print(phonebook["wife"])
 
 
 def check_for_dupe_names(name):
-    if(phonebook[name]):
+    if (phonebook[name]):
         print('That number exists!')
     else:
         phonebook[name]
